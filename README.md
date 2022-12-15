@@ -27,3 +27,5 @@ Start the server
 ```bash
   npm run dev 
 ```
+## License
+[MIT License](LICENSE)
