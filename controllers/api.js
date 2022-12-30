@@ -23,23 +23,6 @@ module.exports = class API {
     }
   }
 
-  //fetch product
-  // static async fetchProducts(req, res) {
-  //   console.log("Inside controller api -", req);
-  //   const id = req.params.id;
-  //   let products = "";
-  //   try {
-  //     if (!!id) {
-  //       products = await Product.findById(id);
-  //     } else {
-  //       products = await Product.find();
-  //     }
-  //     res.status(200).json(products);
-  //   } catch (err) {
-  //     res.status(404).json({ message: err.message });
-  //   }
-  // }
-
   //fetch products by title
   static async fetchAllProductsByTitle(req, res) {
     const productTitle = req.params.title;
